@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed24f924-1f4b-4254-98a6-11c48bc7b121" name="Default Changelist" comment="" />
+    <list default="true" id="ed24f924-1f4b-4254-98a6-11c48bc7b121" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data_Types/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Types/datetime_section/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Types/datetime_section/available_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String_Services/textwrap_section/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +45,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.available_types">
+    <configuration name="available_types" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PSL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Types/datetime_section" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Types/datetime_section/available_types.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="introduction (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PSL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String_Services/cSringIO_section" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_Services/cSringIO_section/introduction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="introduction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PSL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,6 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.available_types" />
+        <item itemvalue="Python.introduction (1)" />
         <item itemvalue="Python.introduction" />
       </list>
     </recent_temporary>
@@ -78,7 +130,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568017625597</updated>
-      <workItem from="1568017626687" duration="8571000" />
+      <workItem from="1568017626687" duration="17920000" />
+      <workItem from="1568798019105" duration="1880000" />
     </task>
     <servers />
   </component>
@@ -90,13 +143,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PSL$introduction.coverage" NAME="introduction Coverage Results" MODIFIED="1568036199215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String_Services/StringIO_section" />
+    <SUITE FILE_PATH="coverage/PSL$introduction__1_.coverage" NAME="introduction (1) Coverage Results" MODIFIED="1568098566742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String_Services/cSringIO_section" />
+    <SUITE FILE_PATH="coverage/PSL$introduction.coverage" NAME="introduction Coverage Results" MODIFIED="1568098463252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/String_Services/StringIO_section" />
+    <SUITE FILE_PATH="coverage/PSL$available_types.coverage" NAME="available_types Coverage Results" MODIFIED="1568112642773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Types/datetime_section" />
   </component>
 </project>
